@@ -1,0 +1,102 @@
+body {
+    font-size: 62.5%;
+    background: #86bbd8;
+    font-family: 'Dancing Script', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 3.5rem;
+}
+
+#section1 {
+    display: flex;
+    flex: 1 1 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 35%;
+    margin-left: 20px;
+}
+
+#section1 div {
+    margin: 20px;
+    font-size: 1rem;
+}
+
+button {
+    width: 120px;
+    height: 40px;
+    border-radius: 2%;
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 100px;
+    background-color: #e0e1dd;
+    font-family: 'Dancing Script', cursive;
+    font-size: .9rem;
+
+}
+
+button:hover {
+    transform: scale(1.1);
+    box-shadow: #2ec4b6;
+}
+
+button:active {
+    transform: scale(1.2);
+}
+
+button:first-child {
+    margin-top: 0px;
+}
+
+button:last-child {
+    margin-bottom: 0px;
+}
+
+/* #buttonDiv div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+#section2 {
+    margin-top: 15px;
+    margin-right: -100px;
+    width: 65%;
+    display: block;
+    /* position: relative; */
+}
+
+#gridContainer {
+    margin: auto;
+    width: 600px;
+    height: 600px;
+    border: solid #2f4858 3px;
+    display: grid;
+    grid: 1;
+    background-color: white;
+}
+
+.newDiv {
+    background-color: #e0e1dd;
+}
+
+.newDivStyle {
+    border: solid #2f4858 0.5px;
+    background-color: #e0e1dd;
+}
+
+footer {
+    margin-top: 6px;
+    text-align: center;
+    color: aliceblue;
+    font-size: .7rem;
+}

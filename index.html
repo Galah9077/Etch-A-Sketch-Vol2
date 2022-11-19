@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sketch</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="icon" type="image/png" href="images/iconmonstr-paintbrush-6-24.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@300;700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <main>
+
+        <section id="section1">
+
+            <h2>Etch a Sketch</h2>
+
+            <!-- //Grid Size Select // -->
+            <div>
+                <label for="gridSize">Select Grid Size</label>
+                <input id="gridSize" type="range" name="gridSize" min="10" max="50" value="16">
+            </div>
+            <!-- Color Select -->
+            <div>
+                <label for="colorSelect">Select a Color</label>
+                <input id="colorChoice" type="color" name="colorSelect" value="#ffc600">
+            </div>
+
+            <div id="buttonDiv">
+
+                <button id="blackBtn">Black</button>
+                <button id="randomBtn">Random Colour</button>
+
+                <button id="randRed">Random Red</button>
+                <button id="randBlue">Random Blue</button>
+
+
+                <button id="borderBtn">Add/Remove Grid Border</button>
+                <button id="reset">Reset</button>
+
+        </section>
+
+        <section id="section2">
+            <div id="gridContainer">
+        </section>
+        </div>
+
+    </main>
+
+
+
+    <div>
+        <footer>Made by <b>Galah9077</b> as part of The Odin Project curriculum</footer>
+    </div>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -95,8 +95,9 @@ button:last-child {
 }
 
 footer {
-    margin-top: 6px;
-    text-align: center;
+    margin-top: 0px;
+
+    text-align: left;
     color: aliceblue;
-    font-size: .7rem;
+    font-size: 1rem;
 }
